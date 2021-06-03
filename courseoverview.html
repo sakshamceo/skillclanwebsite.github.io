@@ -20,7 +20,39 @@
     <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
--->
+--><style>
+  * {
+    color: rgb(0, 0, 0);
+    text-decoration: black;
+  }
+
+  .logomain {
+
+    
+    padding-bottom: 0px;
+    margin: 4px;
+    margin-left: 29px;
+    margin-top: -22px;
+    padding-right: auto;
+    filter: invert(0);
+    height: 144px;
+    width: auto;
+  }
+
+  .logomain:hover {
+
+  padding-bottom: 0px;
+  margin: 4px;
+  margin-left: 29px;
+  margin-top: -22px;
+  padding-right: auto;
+  filter: invert(0);
+  height: 150px;
+  width: auto;
+
+
+  }
+</style>
   </head>
 
 <body>
@@ -45,32 +77,32 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="logo.png" alt="SkillClan">
-            </a>
+            <div id="logo">
+              <a href="index.html" class="logo">
+                <img src="testlogo.png" alt="SkillClan" class="logomain"></a>
+            </div>
+
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
               <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="index.html">About Us</a></li>
               <li class="scroll-to-section"><a href="index.html">Our Course </a></li>
-              <li class="scroll-to-section"><a href="index.html">Blog</a></li> 
-              <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
-              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Contact Now</a></div></li> 
-            </ul>        
+              <li class="scroll-to-section"><a href="index.html">Blog</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+              <li class="scroll-to-section">
+                <div class="main-red-button"><a href="#contact">Contact Now</a></div>
+              </li>
+            </ul>
             <a class='menu-trigger'>
-                <span>Menu</span>
+              <span>Menu</span>
             </a>
             <!-- ***** Menu End ***** -->
           </nav>
         </div>
       </div>
     </div>
-  </header>
   <!-- ***** Header Area End ***** -->
-
-
-
   <div id="services" class="our-services section">
     <div class="container">
       <div class="row">
@@ -82,23 +114,22 @@
         <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="section-heading">
             <h2><em>Our Courses</em></h2>
-            <p>We provide variety of skill set classes for kids and Students. Our primary aim is to 
-           give genuine learning experience to our youngsters. There's a high demand of skillful people, whether it is Coding, Robotics , Digital Marketing, Entrepreneurship or Trading.
-          We want India to be the next super power and for that our future must be competent <br> All these courses are well planned from Beginner Level till the Advance Level. </p>
+            <p>We provide a variety of skill classes for our students. Our foremost priority is to give a genuine teaching experience. There's a high demand for skillful people, whether it's Coding, Robotics, Digital Marketing, Entrepreneurship, or Trading. We want India to be the next superpower so for that our youths should be competent.
+              <br>  We have well-planned courses from Beginner Level to the Advance Level.</p>
           </div>
-          <div class="row">
+          <div class="row" style="text-align: justify;">
             <div class="col-lg-12">
               <div class="first-bar progress-skill-bar">
                 <h4>Digital Marketing</h4>
-                <span>Coming Soon</span>
+                <span style="font-size: small;">Coming Soon</span>
                 <div class="filled-bar"></div>
                 <div class="full-bar"></div>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="second-bar progress-skill-bar">
-                <h4>Coding (Programming Language)</h4>
-                <span>Live</span>
+                <h4>Programming Language</h4>
+                <span style="font-size: small;">Live</span>
                 <div class="filled-bar"></div>
                 <div class="full-bar"></div>
               </div>
@@ -106,7 +137,7 @@
             <div class="col-lg-12">
               <div class="first-bar progress-skill-bar">
                 <h4>Robotics</h4>
-                <span>Coming Soon</span>
+                <span style="font-size: small;">Coming Soon</span>
                 <div class="filled-bar"></div>
                 <div class="full-bar"></div>
               </div>
@@ -114,7 +145,7 @@
             <div class="col-lg-12">
               <div class="first-bar progress-skill-bar">
                 <h4>Finance</h4>
-                <span>Coming Soon</span>
+                <span style="font-size: small;">Coming Soon</span>
                 <div class="filled-bar"></div>
                 <div class="full-bar"></div>
               </div>
@@ -122,7 +153,7 @@
             <div class="col-lg-12">
               <div class="first-bar progress-skill-bar">
                 <h4>Entrepreneurship</h4>
-                <span>Coming Soon</span>
+                <span style="font-size: small;">Coming Soon</span>
                 <div class="filled-bar"></div>
                 <div class="full-bar"></div>
               </div>
@@ -130,68 +161,162 @@
           </div>
         </div> 
       </div>
-      <center><a class="nav-link" href="courseoverview.html"><button type="button" class="btn btn-outline-danger" style="height:50px;width:200px">Courses Overview</button></a></center>
+     <!-- <center><a class="nav-link" href="courseoverview.html"><button type="button" class="btn btn-outline-danger" style="height:50px;width:200px">Courses Overview</button></a></center> -->
     </div>
   </div>
-<!--
+
   <div id="portfolio" class="our-portfolio section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <h2>See What Our Agency <em>Offers</em> &amp; What We <span>Provide</span></h2>
+            <h2><em>Launchpad</em> <span>Courses</span></h2>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <a href="#">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-              <div class="hidden-content">
-                <h4>SEO Analysis</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+              <div class="showed-content" style="text-align: center;
+              font-size: smaller;
+              background: #ff985c;
+              border-radius: 10px;
+              box-shadow: 10px 10px 30px #1b1c1b, -10px -10px 30px #2d302f;">
+                <h4><strong>C++ Launchpad Bootcamp | For Classes 6-10th</h4></strong>
+                <br> <h8>Interactive Classes | Mentors Guidance | Doubt Solving | Perks and Goodies</h8>
               </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
+              <div class="showed-content" style="text-align: justify;">
+                <p>
+                 <br> 
+                What We Offer : <br>
+                  C++ Programming (Data Structures and Algorithms) <br>
+                  <strong>Approximate Course Duration: </strong><br>
+                  24 Sessions 2 hours each<br>
+                  <ul>
+                   <li>Live classes With personal interaction</li> 
+                  
+                   <li> Special Doubt and QnA Sessions, </li>
+                    <li> Ergonomically designed Course for 6-10th class</li>
+                  <li>2 Months Bootcamp</li>
+                   <li>Anytime personal Doubt clearance.</li>
+                   <li>Projects & Assignment</li>
+                   <li>Certificate and Goodies after course completion</li>
+                  </ul>
+                  <strong>   Prerequisites for this course: 
+                  
+                    Student Must have a stable internet connection and a device to to code on</strong>
+               .</p>
+               <center><a class="scroll-to-section" href="#contact"><button type="button" class="btn btn-outline-danger"
+                style="height:50px;width:200px">Book A Class</button></a></center>
               </div>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-              <div class="hidden-content">
-                <h4>Website Reporting</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="showed-content" style="text-align: center;
+              font-size: smaller;
+              background: #ee6a6a;
+              border-radius: 10px;
+              box-shadow: 10px 10px 30px #1b1c1b, -10px -10px 30px #2d302f;">
+                <h4><strong>C++ Launchpad Bootcamp | For Classes 6-10th</h4></strong>
+                <br> <h8>Interactive Classes | Mentors Guidance | Doubt Solving | Perks and Goodies</h8>
               </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
+              <div class="showed-content" style="text-align: justify;">
+                <p>
+                 <br> 
+                What We Offer : <br>
+                  C++ Programming (Data Structures and Algorithms) <br>
+                  <strong>Approximate Course Duration: </strong><br>
+                  24 Sessions 2 hours each<br>
+                  <ul>
+                   <li>Live classes With personal interaction</li> 
+                  
+                   <li> Special Doubt and QnA Sessions, </li>
+                    <li> Ergonomically designed Course for 6-10th class</li>
+                  <li>2 Months Bootcamp</li>
+                   <li>Anytime personal Doubt clearance.</li>
+                   <li>Projects & Assignment</li>
+                   <li>Certificate and Goodies after course completion</li>
+                  </ul>
+                  <strong>   Prerequisites for this course: 
+                  
+                    Student Must have a stable internet connection and a device to to code on</strong>
+               .</p>
               </div>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-              <div class="hidden-content">
-                <h4>Performance Tests</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="showed-content" style="text-align: center;
+              font-size: smaller;
+              background: #ff985c;
+              border-radius: 10px;
+              box-shadow: 10px 10px 30px #1b1c1b, -10px -10px 30px #2d302f;">
+                <h4><strong>C++ Launchpad Bootcamp | For Classes 6-10th</h4></strong>
+                <br> <h8>Interactive Classes | Mentors Guidance | Doubt Solving | Perks and Goodies</h8>
               </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
+              <div class="showed-content" style="text-align: justify;">
+                <p>
+                 <br> 
+                What We Offer : <br>
+                  C++ Programming (Data Structures and Algorithms) <br>
+                  <strong>Approximate Course Duration: </strong><br>
+                  24 Sessions 2 hours each<br>
+                  <ul>
+                   <li>Live classes With personal interaction</li> 
+                  
+                   <li> Special Doubt and QnA Sessions, </li>
+                    <li> Ergonomically designed Course for 6-10th class</li>
+                  <li>2 Months Bootcamp</li>
+                   <li>Anytime personal Doubt clearance.</li>
+                   <li>Projects & Assignment</li>
+                   <li>Certificate and Goodies after course completion</li>
+                  </ul>
+                  <strong>   Prerequisites for this course: 
+                  
+                    Student Must have a stable internet connection and a device to to code on</strong>
+               .</p>
               </div>
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-6 col-sm-6">
           <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-              <div class="hidden-content">
-                <h4>Data Analysis</h4>
-                <p>Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.</p>
+            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="showed-content" style="text-align: center;
+              font-size: smaller;
+              background:#ee6a6a;
+              border-radius: 10px;
+              box-shadow: 10px 10px 30px #1b1c1b, -10px -10px 30px #2d302f;">
+                <h4><strong>C++ Launchpad Bootcamp | For Classes 6-10th</h4></strong>
+                <br> <h8>Interactive Classes | Mentors Guidance | Doubt Solving | Perks and Goodies</h8>
               </div>
-              <div class="showed-content">
-                <img src="assets/images/portfolio-image.png" alt="">
+              <div class="showed-content" style="text-align: justify;">
+                <p>
+                 <br> 
+                What We Offer : <br>
+                  C++ Programming (Data Structures and Algorithms) <br>
+                  <strong>Approximate Course Duration: </strong><br>
+                  24 Sessions 2 hours each<br>
+                  <ul>
+                   <li>Live classes With personal interaction</li> 
+                  
+                   <li> Special Doubt and QnA Sessions, </li>
+                    <li> Ergonomically designed Course for 6-10th class</li>
+                  <li>2 Months Bootcamp</li>
+                   <li>Anytime personal Doubt clearance.</li>
+                   <li>Projects & Assignment</li>
+                   <li>Certificate and Goodies after course completion</li>
+                  </ul>
+                  <strong>   Prerequisites for this course: 
+                  
+                    Student Must have a stable internet connection and a device to to code on</strong>
+               .</p>
               </div>
             </div>
           </a>
@@ -273,21 +398,22 @@
       </div>
     </div>
   </div> -->
-
   <div id="contact" class="contact-us section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
           <div class="section-heading">
-            <h2>Feel Free To Send Us a Message About Your Website Needs</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doer ket eismod tempor incididunt ut labore et dolores</p>
+            <h2>To Book A FREE Trial Class</h2>
+            <p>Please press the button below to whatsapp us or to call us</p>
             <div class="phone-info">
-              <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="#">010-020-0340</a></span></h4>
+              <h4>For any enquiry, Whatsapp / Call Us: <span> <a href="https://wa.me/919717020263"> 
+                <i class="fa fa-whatsapp" aria-hidden="true"></i></a><a href="https://wa.me/919717020263">+91 97170 20263</a></span></h4>
             </div>
           </div>
         </div>
         <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-          <form id="contact" action="" method="post">
+          <form id="contact" action="https://submit-form.com/IJP9uxp3
+          " method="POST">
             <div class="row">
               <div class="col-lg-6">
                 <fieldset>
@@ -301,12 +427,14 @@
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email"
+                    required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+                  <textarea name="message" type="text" class="form-control" id="message" placeholder="Message"
+                    required=""></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -328,9 +456,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
-          <p>© Copyright 2021 Space Dynamic Co. All Rights Reserved. 
-          
-          <br>Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+          <p> &copy;Copyright 2021 Skill-Clan Academy All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>
